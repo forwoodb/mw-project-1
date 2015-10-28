@@ -411,12 +411,15 @@ footer {
   clear: both;
   height: 126px;
   margin: 0;
+  background: rgba(0, 0, 0, 0.1);
+  /*
   background-color: #000;
   opacity: 0.1;
+  */
 }
 
 .footer-logo img, footer p {
-  color: white;
+  color: #fff;
   float: left;
 }
 
