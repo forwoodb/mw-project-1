@@ -14,6 +14,8 @@ a {
   text-decoration: none;
 }
 
+
+
 /***********************************
 Modern Web
 ***********************************/
@@ -107,6 +109,8 @@ Modern Web
   content: "";
   background-repeat: no-repeat;
 }
+
+
 
 /***********************************
 Course Goals
@@ -203,6 +207,8 @@ Course Goals
   clear:both;
 }
 
+
+
 /***********************************
 CoLearners
 ***********************************/
@@ -255,6 +261,8 @@ CoLearners
   white-space: nowrap;
   overflow: hidden;
 }
+
+
 
 /***********************************
 Instructor
@@ -355,6 +363,8 @@ figcaption a {
   color: #aaa;
 }
 
+
+
 /***********************************
 Details
 ***********************************/
@@ -417,6 +427,8 @@ Details
   color: #fff;
   border: 5px solid #fff;
 }
+
+
 
 /***********************************
 Footer
