@@ -39,6 +39,17 @@ Modern Web
   padding: 18px 100px 157px 34px;
   display: inline-block;
   float: left;
+  /*
+  margin: auto;
+  padding: 5px;
+  background-image: url(http://jeremyabrahams.github.io/mw-project-1/img/factory-logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  text-indent: 150%;
+  white-space: nowrap;
+  overflow: hidden;
+  */
 }
 
 .header-nav {
