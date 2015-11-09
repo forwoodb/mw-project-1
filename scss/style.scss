@@ -8,6 +8,7 @@ $cggray: #c3bfbf;
 $lightgray: #aaa;
 $clgray: #444;
 $cloffwhite: #fffffa;
+$ired: #e66244;
 
 body {
   margin: 0;
@@ -337,7 +338,7 @@ blockquote p {
   font-style: italic;
   line-height: 64px;
   text-align: center;
-  color: #e66244;
+  color: $ired;
 }
 
 blockquote p:before, blockquote p:after {
