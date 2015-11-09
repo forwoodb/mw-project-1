@@ -3,6 +3,14 @@
 }
 */
 
+
+
+/***********************************
+Variables
+***********************************/
+
+/*Color Variables------------*/
+
 $cgdarkgray: #777;
 $cggray: #c3bfbf;
 $lightgray: #aaa;
@@ -10,22 +18,31 @@ $clgray: #444;
 $cloffwhite: #fffffa;
 $ired: #e66244;
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-}
+/*Font Weight Variables------------*/
 
-a {
-  text-decoration: none;
-}
+$thin: 100;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$bold: 700;
+
 
 
 
 /***********************************
 Modern Web
 ***********************************/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: $thin;
+}
+
+a {
+  text-decoration: none;
+}
 
 .wrapper {
   margin: 0;
@@ -71,7 +88,7 @@ Modern Web
   padding-top: 35px;
   padding-right: 35px;
   font-size: 18px;
-  font-weight: 100;
+  font-weight: $thin;
   text-transform: uppercase;
   list-style: none;
   text-align: right;
@@ -90,7 +107,7 @@ Modern Web
 
 .banner-title {
   margin: auto;
-  font-weight: 100;
+  font-weight: $thin;
   font-size: 92px;
   line-height: 107px;
   text-align: center;
@@ -100,7 +117,7 @@ Modern Web
   margin: auto;
   padding-top: 5px;
   font-size: 24px;
-  font-weight: 300;
+  font-weight: $light;
   line-height: 28px;
   text-align: center;
 }
@@ -128,7 +145,7 @@ Course Goals
   margin-top: 150px;
   width: 844px;
   font-size: 32px;
-  font-weight: 300;
+  font-weight: $light;
   line-height: 56px;
   text-align: center;
   color: $cggray;
@@ -150,7 +167,7 @@ Course Goals
 .course-goals-title {
   margin-top: 204px;
   font-size: 28px;
-  font-weight: 500;
+  font-weight: $medium;
   text-transform: uppercase;
   text-align: center;
   color: $cgdarkgray;
@@ -178,7 +195,7 @@ Course Goals
 .course-goals-list h2 {
   margin: 0;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: $bold;
   line-height: 27px;
   text-transform: uppercase;
 }
@@ -231,7 +248,7 @@ CoLearners
   padding-top: 91px;
   padding-bottom: 90px;
   font-size: 26px;
-  font-weight: 500;
+  font-weight: $medium;
   text-transform: uppercase;
 }
 
@@ -247,7 +264,7 @@ CoLearners
 
 .colearners-list li h2 {
   font-size: 22px;
-  font-weight: 500;
+  font-weight: $medium;
   line-height: 25px;
 }
 
@@ -286,7 +303,7 @@ Instructor
 
 .instructor h1 {
   font-size: 18px;
-  font-weight: 300;
+  font-weight: $light;
   line-height: 53px;
   text-transform: uppercase;
   color: #fff;
@@ -294,7 +311,7 @@ Instructor
 
 .instructor h2 {
   font-size: 36px;
-  font-weight: 500;
+  font-weight: $medium;
   line-height: 42px;
   text-transform: uppercase;
   color: #fff;
@@ -302,7 +319,7 @@ Instructor
 
 .instructor h3 {
   font-size: 22px;
-  font-weight: 500;
+  font-weight: $medium;
   line-height: 25px;
   text-transform: uppercase;
   color: #fff;
@@ -311,7 +328,7 @@ Instructor
 .instructor p {
   width: 40%;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: $regular;
   line-height: 28px;
   color: #fff;
 }
@@ -334,7 +351,7 @@ blockquote p {
   margin: 0;
   padding-bottom: 74px;
   font-size: 48px;
-  font-weight: 300;
+  font-weight: $light;
   font-style: italic;
   line-height: 64px;
   text-align: center;
@@ -348,7 +365,7 @@ blockquote p:before, blockquote p:after {
 figcaption {
   margin: auto;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: $medium;
   line-height: 25px;
   text-align: center;
   color: $lightgray;
@@ -357,14 +374,14 @@ figcaption {
 span {
   display: block;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: $medium;
   line-height: 24px;
   color: $lightgray;
 }
 
 figcaption a {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: $medium;
   line-height: 24px;
   text-decoration: underline;
   color: $lightgray;
@@ -391,7 +408,7 @@ Details
 .details h1, h2, dl {
   margin: 0;
   font-size: 36px;
-  font-weight: 300;
+  font-weight: $light;
   line-height: 42px;
 }
 
@@ -407,7 +424,7 @@ Details
 
 .details dd {
   font-size: 36px;
-  font-weight: 300;
+  font-weight: $light;
   line-height: 42px;
 }
 
@@ -428,7 +445,7 @@ Details
   margin-right: 70px;
   padding: 30px 100px;
   font-size: 29.9px;
-  font-weight: 700;
+  font-weight: $bold;
   line-height: 35px;
   text-transform: uppercase;
   color: #fff;
