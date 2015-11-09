@@ -11,6 +11,8 @@ body {
 a {
   text-decoration: none; }
 
+
+
 /***********************************
 Modern Web
 ***********************************/
@@ -115,7 +117,20 @@ Course Goals
   height: 30px;
   background-image: url("http://jeremyabrahams.github.io/mw-project-1/img/divider.png");
   background-repeat: no-repeat;
+<<<<<<< Updated upstream:assets/css/style.css
   content: ""; }
+=======
+  margin: auto;
+  position: relative;
+  bottom: -77px;
+}
+
+
+
+/***********************************
+Course Goals
+***********************************/
+>>>>>>> Stashed changes:styles.css
 
 .course-goals-title {
   margin-top: 204px;
@@ -174,6 +189,8 @@ Course Goals
 .course-goals-list:after {
   clear: both; }
 
+
+
 /***********************************
 CoLearners
 ***********************************/
@@ -218,6 +235,8 @@ CoLearners
   text-indent: 150%;
   white-space: nowrap;
   overflow: hidden; }
+
+
 
 /***********************************
 Instructor
@@ -304,6 +323,8 @@ figcaption a {
   line-height: 24px;
   text-decoration: underline;
   color: #aaa; }
+
+
 
 /***********************************
 Details
