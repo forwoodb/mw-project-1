@@ -2,37 +2,32 @@
   border: 1px solid red !important;
 }
 */
-
 body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-}
+  font-weight: 100; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
+
+
 
 /***********************************
 Modern Web
 ***********************************/
-
 .wrapper {
   margin: 0;
   height: 640px;
   width: 100%;
   color: #fff;
-  background-image: url(http://jeremyabrahams.github.io/mw-project-1/img/hero.jpg);
-}
+  background-image: url(http://jeremyabrahams.github.io/mw-project-1/img/hero.jpg); }
 
 .header {
-  margin: 0;
-}
+  margin: 0; }
 
 .header a {
-  color: #fff;
-}
+  color: #fff; }
 
 .header-logo {
   float: left;
@@ -49,12 +44,10 @@ Modern Web
   text-indent: 150%;
   white-space: nowrap;
   overflow: hidden;
-  */
-}
+  */ }
 
 .header-nav {
-  max-width: 100%;
-}
+  max-width: 100%; }
 
 .header-nav-list {
   float: right;
@@ -65,27 +58,23 @@ Modern Web
   font-weight: 100;
   text-transform: uppercase;
   list-style: none;
-  text-align: right;
-}
+  text-align: right; }
 
 .header-nav-list li {
   display: inline-block;
   padding: 0 14px;
-  margin: 0;
-}
+  margin: 0; }
 
 .banner {
   display: block;
-  clear: both;
-}
+  clear: both; }
 
 .banner-title {
   margin: auto;
   font-weight: 100;
   font-size: 92px;
   line-height: 107px;
-  text-align: center;
-}
+  text-align: center; }
 
 .banner-text {
   margin: auto;
@@ -93,8 +82,7 @@ Modern Web
   font-size: 24px;
   font-weight: 300;
   line-height: 28px;
-  text-align: center;
-}
+  text-align: center; }
 
 .banner-text:after {
   position: relative;
@@ -105,13 +93,11 @@ Modern Web
   height: 30px;
   background-image: url(http://jeremyabrahams.github.io/mw-project-1/img/mw-icon.png);
   content: "";
-  background-repeat: no-repeat;
-}
+  background-repeat: no-repeat; }
 
 /***********************************
 Course Goals
 ***********************************/
-
 .intro {
   margin: auto;
   margin-top: 150px;
@@ -120,8 +106,7 @@ Course Goals
   font-weight: 300;
   line-height: 56px;
   text-align: center;
-  color: #c3bfbf;
-}
+  color: #c3bfbf; }
 
 .intro p:after {
   position: relative;
@@ -130,11 +115,22 @@ Course Goals
   margin: auto;
   width: 556px;
   height: 30px;
-  background-image: url('http://jeremyabrahams.github.io/mw-project-1/img/divider.png');
+  background-image: url("http://jeremyabrahams.github.io/mw-project-1/img/divider.png");
   background-repeat: no-repeat;
-  content: "";
-
+<<<<<<< Updated upstream:assets/css/style.css
+  content: ""; }
+=======
+  margin: auto;
+  position: relative;
+  bottom: -77px;
 }
+
+
+
+/***********************************
+Course Goals
+***********************************/
+>>>>>>> Stashed changes:styles.css
 
 .course-goals-title {
   margin-top: 204px;
@@ -142,106 +138,91 @@ Course Goals
   font-weight: 500;
   text-transform: uppercase;
   text-align: center;
-  color: #777;
-}
+  color: #777; }
 
 *, *:before, *:after {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 .course-goals-list {
   list-style-type: none;
   padding: 0;
   margin: 69px 55px 155px 55px;
-  color: #777;
-}
+  color: #777; }
 
 .course-goals-list li {
   float: left;
   width: 30%;
   /* height: 150px; */
   margin: 1%;
-  /* overflow: hidden; */
-}
+  /* overflow: hidden; */ }
 
 .course-goals-list h2 {
   margin: 0;
   font-size: 18px;
   font-weight: 700;
   line-height: 27px;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .course-goals-list p {
   margin: 0;
   font-size: 18px;
-  line-height: 27px;
-}
+  line-height: 27px; }
 
 .course-goals-list li:nth-child(3n+1) {
   clear: left;
-  margin-right: 40px;
-}
+  margin-right: 40px; }
 
 .course-goals-list li:nth-child(3n) {
-  float: right;
-}
+  float: right; }
 
 .course-goals-list li:nth-child(4),
 .course-goals-list li:nth-child(5),
 .course-goals-list li:last-child {
   position: relative;
-  bottom: -101px;
-}
+  bottom: -101px; }
 
 .course-goals-list:before,
 .course-goals-list:after {
   content: "";
-  display:table;
-}
+  display: table; }
+
 .course-goals-list:after {
-  clear:both;
-}
+  clear: both; }
+
+
 
 /***********************************
 CoLearners
 ***********************************/
-
 .colearners {
   padding-bottom: 135px;
   text-align: center;
   color: #444;
-  background-color: #fffffa;
-}
+  background-color: #fffffa; }
 
 .colearners h1 {
   padding-top: 91px;
   padding-bottom: 90px;
   font-size: 26px;
   font-weight: 500;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .colearners-list > li {
   position: relative;
   display: inline-block;
-  width: 23%;
-}
+  width: 23%; }
 
 .colearners-list li:nth-child(4n+1) {
-  clear: left;
-}
+  clear: left; }
 
 .colearners-list li h2 {
   font-size: 22px;
   font-weight: 500;
-  line-height: 25px;
-}
+  line-height: 25px; }
 
 .colearners-list img {
   border-radius: 100%;
-  max-width: 100%;
-}
+  max-width: 100%; }
 
 /* Social Icons */
 .colearners-list ul {
@@ -253,67 +234,60 @@ CoLearners
   background-position: center;
   text-indent: 150%;
   white-space: nowrap;
-  overflow: hidden;
-}
+  overflow: hidden; }
+
+
 
 /***********************************
 Instructor
 ***********************************/
-
 .instructor {
   height: 701px;
   width: 100%;
   padding-top: 208px;
   padding-bottom: 183px;
   padding-left: 100px;
-  background-image: url(http://jeremyabrahams.github.io/mw-project-1/img/instructor.jpg);
-}
+  background-image: url(http://jeremyabrahams.github.io/mw-project-1/img/instructor.jpg); }
 
 .instructor h1 {
   font-size: 18px;
   font-weight: 300;
   line-height: 53px;
   text-transform: uppercase;
-  color: #fff;
-}
+  color: #fff; }
 
 .instructor h2 {
   font-size: 36px;
   font-weight: 500;
   line-height: 42px;
   text-transform: uppercase;
-  color: #fff;
-}
+  color: #fff; }
 
 .instructor h3 {
   font-size: 22px;
   font-weight: 500;
   line-height: 25px;
   text-transform: uppercase;
-  color: #fff;
-}
+  color: #fff; }
 
 .instructor p {
   width: 40%;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  color: #fff;
-}
+  color: #fff; }
 
 figure {
   margin: 0;
   width: 100%;
   height: 626px;
   padding-top: 170px;
-  padding-bottom: 111px;
-}
+  padding-bottom: 111px; }
 
 blockquote {
   margin: auto;
   padding: 0;
-  width: 75%;
-}
+  width: 75%; }
 
 blockquote p {
   margin: 0;
@@ -323,12 +297,10 @@ blockquote p {
   font-style: italic;
   line-height: 64px;
   text-align: center;
-  color: #e66244;
-}
+  color: #e66244; }
 
 blockquote p:before, blockquote p:after {
-  content: '"'
-}
+  content: '"'; }
 
 figcaption {
   margin: auto;
@@ -336,63 +308,55 @@ figcaption {
   font-weight: 500;
   line-height: 25px;
   text-align: center;
-  color: #aaa;
-}
+  color: #aaa; }
 
 span {
   display: block;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  color: #aaa;
-}
+  color: #aaa; }
 
 figcaption a {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   text-decoration: underline;
-  color: #aaa;
-}
+  color: #aaa; }
+
+
 
 /***********************************
 Details
 ***********************************/
-
 .details {
   width: 100%;
   height: 672;
   background-image: url(http://jeremyabrahams.github.io/mw-project-1/img/footer.jpg);
-  color: #fff;
-}
+  color: #fff; }
 
 .details section {
   padding-top: 141px;
-  padding-left: 92px;
-}
+  padding-left: 92px; }
 
 .details h1, h2, dl {
   margin: 0;
   font-size: 36px;
   font-weight: 300;
-  line-height: 42px;
-}
+  line-height: 42px; }
 
 .details dt {
   float: left;
   clear: left;
-  text-align: right;
-}
+  text-align: right; }
 
 .details dd:before {
-  content: ":  ";
-}
+  content: ":  "; }
 
 .details dd {
   font-size: 36px;
   font-weight: 300;
-  line-height: 42px;
-}
+  line-height: 42px; }
 
 .details dt:nth-child(5),
 .details dd:nth-child(6),
@@ -400,8 +364,7 @@ Details
 .details dd:last-child {
   position: relative;
   bottom: -10px;
-  line-height: 64px;
-}
+  line-height: 64px; }
 
 .details .button {
   position: relative;
@@ -415,13 +378,11 @@ Details
   line-height: 35px;
   text-transform: uppercase;
   color: #fff;
-  border: 5px solid #fff;
-}
+  border: 5px solid #fff; }
 
 /***********************************
 Footer
 ***********************************/
-
 footer {
   clear: both;
   height: 126px;
@@ -431,53 +392,29 @@ footer {
   /*
   background-color: #000;
   opacity: 0.1;
-  */
-}
+  */ }
 
 .footer-logo img, footer p {
   float: left;
-  color: #fff;
-}
+  color: #fff; }
 
 .footer-logo img {
   width: 100px;
   height: 64px;
   margin: 27px 32px;
-  color: #fff;
-}
+  color: #fff; }
 
 footer p {
   margin: 0;
-  font-size: 14px;
-}
+  font-size: 14px; }
 
 .street {
   position: relative;
-  bottom: -52px;
-}
+  bottom: -52px; }
 
 .city {
   position: relative;
   left: -175px;
-  bottom: -68px;
-}
+  bottom: -68px; }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /**/
+/**/
