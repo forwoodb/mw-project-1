@@ -3,8 +3,11 @@
 }
 */
 
-$darkgray: #777;
+$cgdarkgray: #777;
+$cggray: #c3bfbf;
 $lightgray: #aaa;
+$clgray: #444;
+$cloffwhite: #fffffa;
 
 body {
   margin: 0;
@@ -127,7 +130,7 @@ Course Goals
   font-weight: 300;
   line-height: 56px;
   text-align: center;
-  color: #c3bfbf;
+  color: $cggray;
 }
 
 .intro p:after {
@@ -149,7 +152,7 @@ Course Goals
   font-weight: 500;
   text-transform: uppercase;
   text-align: center;
-  color: $darkgray;
+  color: $cgdarkgray;
 }
 
 *, *:before, *:after {
@@ -160,7 +163,7 @@ Course Goals
   list-style-type: none;
   padding: 0;
   margin: 69px 55px 155px 55px;
-  color: $darkgray;
+  color: $cgdarkgray;
 }
 
 .course-goals-list li {
@@ -219,8 +222,8 @@ CoLearners
 .colearners {
   padding-bottom: 135px;
   text-align: center;
-  color: #444;
-  background-color: #fffffa;
+  color: $clgray;
+  background-color: $cloffwhite;
 }
 
 .colearners h1 {
