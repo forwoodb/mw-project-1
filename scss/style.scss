@@ -3,6 +3,9 @@
 }
 */
 
+$darkgray: #777;
+$lightgray: #aaa;
+
 body {
   margin: 0;
   padding: 0;
@@ -146,7 +149,7 @@ Course Goals
   font-weight: 500;
   text-transform: uppercase;
   text-align: center;
-  color: #777;
+  color: $darkgray;
 }
 
 *, *:before, *:after {
@@ -157,7 +160,7 @@ Course Goals
   list-style-type: none;
   padding: 0;
   margin: 69px 55px 155px 55px;
-  color: #777;
+  color: $darkgray;
 }
 
 .course-goals-list li {
@@ -344,7 +347,7 @@ figcaption {
   font-weight: 500;
   line-height: 25px;
   text-align: center;
-  color: #aaa;
+  color: $lightgray;
 }
 
 span {
@@ -352,7 +355,7 @@ span {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  color: #aaa;
+  color: $lightgray;
 }
 
 figcaption a {
@@ -360,7 +363,7 @@ figcaption a {
   font-weight: 500;
   line-height: 24px;
   text-decoration: underline;
-  color: #aaa;
+  color: $lightgray;
 }
 
 
