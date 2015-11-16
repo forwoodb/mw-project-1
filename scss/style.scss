@@ -267,6 +267,8 @@ CoLearners
     position: relative;
     display: inline-block;
     width: 23%;
+    border: 1px solid red;
+    background-color: red;
 
     .colearners-list img {
       border-radius: 100%;
@@ -298,6 +300,21 @@ CoLearners
   }
 }
 
+@media only screen and (min-width: 480px) {
+  .colearners-list > li {
+    display: inline-block;
+    width: 46%;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .colearners-list > li {
+    display: inline-block;
+    width: 23%;
+    position: relative;
+  }
+}
 
 
 
