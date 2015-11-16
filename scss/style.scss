@@ -11,20 +11,20 @@ Variables
 
 /*Color Variables------------*/
 
-$cgdarkgray: #777;
-$cggray: #c3bfbf;
-$lightgray: #aaa;
-$clgray: #444;
-$cloffwhite: #fffffa;
-$ired: #e66244;
+$cg-darkgray : #777;
+$cg-gray     : #c3bfbf;
+$lightgray   : #aaa;
+$cl-gray     : #444;
+$cl-offwhite : #fffffa;
+$i-red       : #e66244;
 
 /*Font Weight Variables------------*/
 
-$thin: 100;
-$light: 300;
-$regular: 400;
-$medium: 500;
-$bold: 700;
+$thin    : 100;
+$light   : 300;
+$regular : 400;
+$medium  : 500;
+$bold    : 700;
 
 
 
@@ -267,6 +267,8 @@ CoLearners
     position: relative;
     display: inline-block;
     width: 23%;
+    border: 1px solid red;
+    background-color: red;
 
     .colearners-list img {
       border-radius: 100%;
@@ -298,6 +300,21 @@ CoLearners
   }
 }
 
+@media only screen and (min-width: 480px) {
+  .colearners-list > li {
+    display: inline-block;
+    width: 46%;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .colearners-list > li {
+    display: inline-block;
+    width: 23%;
+    position: relative;
+  }
+}
 
 
 
