@@ -2,6 +2,14 @@
   border: 1px solid red !important;
 }
 */
+/***********************************
+Variables
+***********************************/
+/*Color Variables------------*/
+/*Font Weight Variables------------*/
+/***********************************
+Modern Web
+***********************************/
 body {
   margin: 0;
   padding: 0;
@@ -11,9 +19,6 @@ body {
 a {
   text-decoration: none; }
 
-/***********************************
-Modern Web
-***********************************/
 .wrapper {
   margin: 0;
   height: 640px;
@@ -193,19 +198,16 @@ CoLearners
 .colearners-list > li {
   position: relative;
   display: inline-block;
-  width: 23%; }
+  width: 92%; }
 
-.colearners-list li:nth-child(4n+1) {
-  clear: left; }
+.colearners-list img {
+  border-radius: 100%;
+  max-width: 100%; }
 
 .colearners-list li h2 {
   font-size: 22px;
   font-weight: 500;
   line-height: 25px; }
-
-.colearners-list img {
-  border-radius: 100%;
-  max-width: 100%; }
 
 /* Social Icons */
 .colearners-list ul {
@@ -218,6 +220,21 @@ CoLearners
   text-indent: 150%;
   white-space: nowrap;
   overflow: hidden; }
+
+.colearners-list li:nth-child(4n+1) {
+  clear: left; }
+
+@media only screen and (min-width: 480px) {
+  .colearners-list > li {
+    display: inline-block;
+    width: 46%;
+    position: relative; } }
+
+@media only screen and (min-width: 768px) {
+  .colearners-list > li {
+    display: inline-block;
+    width: 23%;
+    position: relative; } }
 
 /***********************************
 Instructor
@@ -395,5 +412,3 @@ footer p {
   position: relative;
   left: -175px;
   bottom: -68px; }
-
-/**/
