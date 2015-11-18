@@ -188,20 +188,10 @@ Course Goals
 
 .course-goals-list li {
   float: left;
-  width: 30%;
+  width: 90%;
   /* height: 150px; */
   margin: 1%;
   /* overflow: hidden; */
-}
-
-@media only screen and {
-  .course-goals-list li {
-    float: left;
-    width: 30%;
-    /* height: 150px; */
-    margin: 1%;
-    /* overflow: hidden; */
-  }
 }
 
 .course-goals-list h2 {
@@ -244,6 +234,21 @@ Course Goals
 }
 
 
+@media only screen and (min-width: 780px) {
+  .course-goals-list li {
+    float: left;
+    width: 45%;
+    margin: 1%;
+  }
+}
+
+@media only screen and (min-width: 1068px) {
+  .course-goals-list li {
+    float: left;
+    width: 30%;
+    margin: 1%;
+  }
+}
 
 /***********************************
 CoLearners
@@ -479,8 +484,6 @@ Details
   color: #fff;
   border: 5px solid #fff;
 }
-
-
 
 /***********************************
 Footer
