@@ -2,6 +2,14 @@
   border: 1px solid red !important;
 }
 */
+/***********************************
+Variables
+***********************************/
+/*Color Variables------------*/
+/*Font Weight Variables------------*/
+/***********************************
+Modern Web
+***********************************/
 body {
   margin: 0;
   padding: 0;
@@ -11,11 +19,6 @@ body {
 a {
   text-decoration: none; }
 
-
-
-/***********************************
-Modern Web
-***********************************/
 .wrapper {
   margin: 0;
   height: 640px;
@@ -117,20 +120,7 @@ Course Goals
   height: 30px;
   background-image: url("http://jeremyabrahams.github.io/mw-project-1/img/divider.png");
   background-repeat: no-repeat;
-<<<<<<< Updated upstream:assets/css/style.css
   content: ""; }
-=======
-  margin: auto;
-  position: relative;
-  bottom: -77px;
-}
-
-
-
-/***********************************
-Course Goals
-***********************************/
->>>>>>> Stashed changes:styles.css
 
 .course-goals-title {
   margin-top: 204px;
@@ -151,7 +141,7 @@ Course Goals
 
 .course-goals-list li {
   float: left;
-  width: 30%;
+  width: 90%;
   /* height: 150px; */
   margin: 1%;
   /* overflow: hidden; */ }
@@ -189,7 +179,17 @@ Course Goals
 .course-goals-list:after {
   clear: both; }
 
+@media only screen and (min-width: 780px) {
+  .course-goals-list li {
+    float: left;
+    width: 45%;
+    margin: 1%; } }
 
+@media only screen and (min-width: 1068px) {
+  .course-goals-list li {
+    float: left;
+    width: 30%;
+    margin: 1%; } }
 
 /***********************************
 CoLearners
@@ -210,19 +210,16 @@ CoLearners
 .colearners-list > li {
   position: relative;
   display: inline-block;
-  width: 23%; }
+  width: 92%; }
 
-.colearners-list li:nth-child(4n+1) {
-  clear: left; }
+.colearners-list img {
+  border-radius: 100%;
+  max-width: 100%; }
 
 .colearners-list li h2 {
   font-size: 22px;
   font-weight: 500;
   line-height: 25px; }
-
-.colearners-list img {
-  border-radius: 100%;
-  max-width: 100%; }
 
 /* Social Icons */
 .colearners-list ul {
@@ -236,7 +233,20 @@ CoLearners
   white-space: nowrap;
   overflow: hidden; }
 
+.colearners-list li:nth-child(4n+1) {
+  clear: left; }
 
+@media only screen and (min-width: 480px) {
+  .colearners-list > li {
+    display: inline-block;
+    width: 46%;
+    position: relative; } }
+
+@media only screen and (min-width: 768px) {
+  .colearners-list > li {
+    display: inline-block;
+    width: 23%;
+    position: relative; } }
 
 /***********************************
 Instructor
@@ -323,8 +333,6 @@ figcaption a {
   line-height: 24px;
   text-decoration: underline;
   color: #aaa; }
-
-
 
 /***********************************
 Details
@@ -416,5 +424,3 @@ footer p {
   position: relative;
   left: -175px;
   bottom: -68px; }
-
-/**/
