@@ -194,6 +194,16 @@ Course Goals
   /* overflow: hidden; */
 }
 
+@media only screen and {
+  .course-goals-list li {
+    float: left;
+    width: 30%;
+    /* height: 150px; */
+    margin: 1%;
+    /* overflow: hidden; */
+  }
+}
+
 .course-goals-list h2 {
   margin: 0;
   font-size: 18px;
@@ -231,16 +241,6 @@ Course Goals
 }
 .course-goals-list:after {
   clear:both;
-}
-
-@media only screen and {
-  .course-goals-list li {
-    float: left;
-    width: 30%;
-    /* height: 150px; */
-    margin: 1%;
-    /* overflow: hidden; */
-  }
 }
 
 
