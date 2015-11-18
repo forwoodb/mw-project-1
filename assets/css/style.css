@@ -19,6 +19,12 @@ body {
 a {
   text-decoration: none; }
 
+
+
+/***********************************
+Modern Web
+***********************************/
+
 .wrapper {
   margin: 0;
   height: 640px;
@@ -120,7 +126,14 @@ Course Goals
   height: 30px;
   background-image: url("http://jeremyabrahams.github.io/mw-project-1/img/divider.png");
   background-repeat: no-repeat;
-  content: ""; }
+  content: "";
+}
+
+
+
+/***********************************
+Course Goals
+***********************************/
 
 .course-goals-title {
   margin-top: 204px;
@@ -178,6 +191,8 @@ Course Goals
 
 .course-goals-list:after {
   clear: both; }
+
+
 
 /***********************************
 CoLearners
@@ -322,9 +337,12 @@ figcaption a {
   text-decoration: underline;
   color: #aaa; }
 
+
+
 /***********************************
 Details
 ***********************************/
+
 .details {
   width: 100%;
   height: 672;
