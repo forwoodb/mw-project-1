@@ -234,8 +234,12 @@ Course Goals
 }
 
 @media only screen and {
-  coarse-goals-list li {
-    
+  .course-goals-list li {
+    float: left;
+    width: 30%;
+    /* height: 150px; */
+    margin: 1%;
+    /* overflow: hidden; */
   }
 }
 
