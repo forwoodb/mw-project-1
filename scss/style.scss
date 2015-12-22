@@ -254,14 +254,14 @@ Course Goals
 CoLearners
 ***********************************/
 
-.colearners {
+#colearners {
   padding-bottom: 135px;
   text-align: center;
   color: $cl-gray;
   background-color: $cl-offwhite;
 }
 
-.colearners h1 {
+#colearners h1 {
   padding-top: 91px;
   padding-bottom: 90px;
   font-size: 26px;
@@ -325,7 +325,7 @@ CoLearners
 Instructor
 ***********************************/
 
-.instructor {
+#instructor {
   height: 701px;
   width: 100%;
   padding-top: 208px;
@@ -334,7 +334,7 @@ Instructor
   background-image: url(http://jeremyabrahams.github.io/mw-project-1/img/instructor.jpg);
 }
 
-.instructor h1 {
+#instructor h1 {
   font-size: 18px;
   font-weight: $light;
   line-height: 53px;
@@ -342,7 +342,7 @@ Instructor
   color: #fff;
 }
 
-.instructor h2 {
+#instructor h2 {
   font-size: 36px;
   font-weight: $medium;
   line-height: 42px;
@@ -350,7 +350,7 @@ Instructor
   color: #fff;
 }
 
-.instructor h3 {
+#instructor h3 {
   font-size: 22px;
   font-weight: $medium;
   line-height: 25px;
@@ -358,7 +358,7 @@ Instructor
   color: #fff;
 }
 
-.instructor p {
+#instructor p {
   width: 40%;
   font-size: 20px;
   font-weight: $regular;
@@ -426,51 +426,51 @@ figcaption a {
 Details
 ***********************************/
 
-.details {
+#details {
   width: 100%;
   height: 672;
   background-image: url(http://jeremyabrahams.github.io/mw-project-1/img/footer.jpg);
   color: #fff;
 }
 
-.details section {
+#details section {
   padding-top: 141px;
   padding-left: 92px;
 }
 
-.details h1, h2, dl {
+#details h1, h2, dl {
   margin: 0;
   font-size: 36px;
   font-weight: $light;
   line-height: 42px;
 }
 
-.details dt {
+#details dt {
   float: left;
   clear: left;
   text-align: right;
 }
 
-.details dd:before {
+#details dd:before {
   content: ":  ";
 }
 
-.details dd {
+#details dd {
   font-size: 36px;
   font-weight: $light;
   line-height: 42px;
 }
 
-.details dt:nth-child(5),
-.details dd:nth-child(6),
-.details dt:nth-child(7),
-.details dd:last-child {
+#details dt:nth-child(5),
+#details dd:nth-child(6),
+#details dt:nth-child(7),
+#details dd:last-child {
   position: relative;
   bottom: -10px;
   line-height: 64px;
 }
 
-.details .button {
+#details .button {
   position: relative;
   top: -220px;
   clear: both;
