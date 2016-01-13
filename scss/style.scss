@@ -175,6 +175,7 @@ Course Goals
   color: $cg-darkgray;
 }
 
+/* Move to top? */
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -445,6 +446,7 @@ Details
   line-height: 42px;
 }
 
+/* Definition List Alignment */
 #details dt {
   float: left;
   clear: left;
@@ -455,6 +457,7 @@ Details
   content: ":  ";
 }
 
+/* Definition List Text */
 #details dd {
   font-size: 36px;
   font-weight: $light;
